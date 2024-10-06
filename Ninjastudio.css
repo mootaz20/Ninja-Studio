@@ -1,0 +1,70 @@
+.navbar .navbar-menu a:hover{
+    color: orange;
+    background-color: white;
+}
+#color p{
+    color: #999999;
+}
+#line #p1::after{
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 30px auto 70px auto;
+    width: 5%;
+    background-color: orange;
+}
+p{
+    color: #999999;
+}
+#margin{
+    margin-top: 300px;
+}
+#margin .testemonial::before{
+    content: '\f10e';
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: rgba(0, 0, 0, .4);
+}
+#margin .media{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+#form{
+    background-color: #eff4f7;
+}
+#form #p1{
+    color: #999999;
+}
+#form #p1::after{
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 30px auto 70px auto;
+    width: 5%;
+    background-color: orange;
+}
+#footer{
+    background-color: #444F60;
+}
+#footer a{
+    color: #B5E1FC;
+}
+.integration-icon {
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    transition: all .3s;
+  }
+  
+  .integration-icon:hover {
+    color: orange;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(128, 128, 128, .4);
+  }
+  #line>.icon::before {
+    content: '';
+  }
